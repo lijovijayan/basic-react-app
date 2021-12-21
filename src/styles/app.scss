@@ -1,0 +1,11 @@
+html {
+    @apply overflow-x-hidden;
+}
+body {
+    font-family: 'Open Sans';
+    @apply p-0 m-0;
+}
+
+.app-container {
+    @apply flex items-center justify-center h-screen w-full;
+}
