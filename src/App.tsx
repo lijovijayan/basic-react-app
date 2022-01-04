@@ -1,8 +1,15 @@
-import React from "react";
-import './styles/app.scss';
+import { Counter, CouterProvider } from './pages/counter'
+import './styles/app.scss'
 
 function App() {
-  return <div className="app-container">Hello World !</div>;
+    return (
+        <CouterProvider>
+            <div className="app-container">
+                Hello World !
+                <Counter />
+            </div>
+        </CouterProvider>
+    )
 }
 
-export default App;
+export default App
