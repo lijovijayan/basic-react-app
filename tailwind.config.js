@@ -12,6 +12,7 @@ module.exports = {
             }
         }
     },
+    content: ['./public/index.html', './src/*.tsx', './src/*.scss'],
     variants: {
         extend: {}
     },
